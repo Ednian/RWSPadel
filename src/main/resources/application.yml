@@ -1,0 +1,14 @@
+# application.yml
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs  # Endpoint para acceder a la documentación JSON
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html  # Endpoint para acceder a la interfaz Swagger-UI
+server:
+  servlet:
+    context-path: /RWSPadel
+    
+    
